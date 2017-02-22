@@ -1,2 +1,4 @@
 *.kpf
 *.pyc
+*.gpprod.csv
+*.stat
