@@ -76,6 +76,7 @@ class PyMailer():
         """
         Write failed recipient_data to csv file to be retried again later.
         """
+     # commented out because it was adding the email addresses 2x and ending up with an array of each address 3x - fails can just fail for now
      #   try:
      #       csv_file = open(config.CSV_RETRY_FILENAME, 'wb+')
      #   except IOError:
